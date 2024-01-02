@@ -1,0 +1,29 @@
+.TopHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.salutation{
+    font-weight: bold;
+    font-size: 28px
+}
+.ending-side{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.notification-image {
+    height:25px ;
+}
+.profile-image{
+    height: 25px;
+}
+#search {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT10_r_1mul3PSfh729fyFr44ZPmN4pKtLByu0vwDDFMA&s);
+    background-position:left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    border-radius: 15%;
+    height: 25px;
+}
