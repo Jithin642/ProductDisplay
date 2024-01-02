@@ -2,28 +2,76 @@
     display: flex;
     justify-content: space-between;
 }
-.salutation{
-    font-weight: bold;
-    font-size: 28px
-}
 .ending-side{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-}
-.notification-image {
-    height:25px ;
-}
-.profile-image{
-    height: 25px;
 }
 #search {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT10_r_1mul3PSfh729fyFr44ZPmN4pKtLByu0vwDDFMA&s);
     background-position:left;
-    background-size: 30px;
     background-repeat: no-repeat;
-    text-indent: 25px;
     border-radius: 15%;
-    height: 25px;
+}
+
+@media screen and (max-width: 431px) {
+    .notification-image {
+        height:15px;
+    }
+    .profile-image{
+        height: 15px;
+    }
+    #search {
+        background-size: 15px;
+        text-indent: 12px;
+        width: 52px;
+    }
+    .salutation{
+        font-weight:bolder;
+        font-size: 12px
+    }
+    .below-salutation{
+        font-weight: 600;
+        font-size:7px;
+    }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 650px){
+    .salutation{
+        font-weight: bold;
+        font-size: 18px
+    }
+    .below-salutation{
+        font-size:x-small;
+    }
+     #search {
+        background-size: 15px;
+        text-indent: 12px;
+        width: 80px;
+    }
+}
+
+@media screen and (min-width:650px){
+    .salutation{
+        font-weight: bold;
+        font-size: 28px
+    }
+    .below-salutation{
+        font-size:small;
+    }
+}
+
+@media screen and (min-width:431px){
+
+    .notification-image {
+        height:25px;
+    }
+    .profile-image{
+        height: 25px;
+    }
+    #search {
+        background-size: 30px;
+        text-indent: 25px;
+    }
 }
