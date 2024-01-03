@@ -49,11 +49,12 @@ const ProductDisplay = () => {
                             })}
                         </div>
                         <div className='vert-bar-graph'>
-                            {/* <div className='rectangle' Style="--val: 50%">aaa</div>
-                            <div className='rectangle' Style="--val: 50%">baa</div>
-                            <div className='rectangle' Style="--val: 50%">caa</div>
-                            <div className='rectangle' Style="--val: 50%">daa</div>
-                            <div className='rectangle' Style="--val: 50%">daa</div> */}
+
+                            <div className='rectangle' Style="--val: 25%"></div>
+                            <div className='rectangle' Style="--val: 30%"></div>
+                            <div className='rectangle' Style="--val: 40%"></div>
+                            <div className='rectangle' Style="--val: 50%"></div>
+                            <div className='last-rectangle' Style="--val: 50%"></div>
                         </div>
                     </div>
                     <div className='chart-row-2'>
